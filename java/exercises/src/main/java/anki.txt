@@ -1,0 +1,6 @@
+1.  CommentService class, DBCommentRepository class, and the EmailCommentNotificationProxy because the CommentSerivce
+class is dependent on instance of each of those classes.  In turn the DBCommentRepository and EmailNotificationProxy
+class are themselves dependencies.
+2.  The Comment class does not have a dependency not is itself a dependency.  Interfaces, along with abstract classes
+are not put into the Spring context because they cannot be instantiated and the Spring context needs objects to add
+to the context.
