@@ -1,4 +1,4 @@
 package exceptions;
 
-public class NotEnoughMoneyException extends RuntimeException {
+public class NotEnoughMoneyException {
 }
