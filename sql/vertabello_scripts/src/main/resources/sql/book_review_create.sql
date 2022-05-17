@@ -1,4 +1,4 @@
-use vertabello;
+use vertabello_recap_of_sql_joins;
 create table if not exists book_review (
     book_id int,
     review varchar(255) not null,

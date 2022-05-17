@@ -1,4 +1,4 @@
-use vertabello;
+use vertabello_recap_of_sql_joins;
 create table if not exists book (
     id int not null auto_increment primary key,
     author_id int,

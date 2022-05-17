@@ -1,3 +1,4 @@
+use vertabello_recap_of_sql_joins;
 create table if not exists author (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,

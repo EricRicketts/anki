@@ -1,4 +1,4 @@
-use vertabello;
+use vertabello_recap_of_sql_joins;
 create table if not exists adaptation (
     book_id int,
     type varchar(255) not null,
