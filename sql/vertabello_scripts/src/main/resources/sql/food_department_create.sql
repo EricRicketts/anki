@@ -1,3 +1,4 @@
+use vertabello;
 create table if not exists food_department (
     id int not null auto_increment primary key,
     name varchar(255) not null

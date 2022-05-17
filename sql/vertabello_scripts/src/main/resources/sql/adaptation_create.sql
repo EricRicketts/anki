@@ -1,3 +1,4 @@
+use vertabello;
 create table if not exists adaptation (
     book_id int,
     type varchar(255) not null,
