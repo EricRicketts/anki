@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df7afc44-af2a-4ef2-bafd-4102c9e50db2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/exercises/sql/sql_practice/anki.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/src/main/java/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/src/main/java/aspects/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/src/main/java/aspects/SecurityAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/src/main/java/aspects/SecurityAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/src/main/java/aspects/ToLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/src/main/java/aspects/ToLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/src/main/java/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/src/main/java/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/src/main/java/repositories/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/src/main/java/repositories/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/exercises/src/main/java/services/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/exercises/src/main/java/services/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/vertabello_scripts/src/main/resources/sql/vertabello_sql_joins/self_joins/workshop_workers_create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +24,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +47,22 @@
       <option name="presentableId" value="Default" />
       <updated>1649516642004</updated>
       <workItem from="1649516650679" duration="28000" />
+      <workItem from="1653490294590" duration="1184000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
