@@ -62,3 +62,34 @@ values (1, 'Thermotherapy', 96.5, 'pain relief'),
     (9, 'Hot stone massage', 60.0, 'relaxation'),
     (10, 'Acupuncture', 115.0, 'acupressure'),
     (11, 'Chiropractic', 199.0, 'pain relief');
+
+create table if not exists therapy (
+    id int primary key auto_increment not null,
+    patient_id int not null,
+    physicial_id int not null,
+    treatment_type varchar(255) not null,
+    foreign key (patient_id) references patient(id) on delete cascade,
+    foreign key (physicial_id) references physician(id) on delete cascade
+);
+
+insert into therapy(id, patient_id, physicial_id, treatment_type)
+values (1, 4, 2, 'pain relief'),
+    (2, 12, 3, 'treatment of tissue damage'),
+    (3, 14, 8, 'laser medicine'),
+    (4, 1, 8, 'relaxation'),
+    (5, 2, 7, 'relaxation'),
+    (6, 4, 1, 'relaxation'),
+    (7, 15, 9, 'acupressure'),
+    (8, 5, 10, 'acupressure'),
+    (9, 10, 6, 'relaxation'),
+    (10, 11, 3, 'treatment of tissue damage'),
+    (11, 11, 7, 'relaxation'),
+    (12, 3, 4, 'acupressure'),
+    (13, 9, 8, 'pain relief'),
+    (14, 7, 1, 'pain relief'),
+    (15, 4, 5, 'relaxation'),
+    (16, 13, 10, 'acupressure'),
+    (17, 1, 1, 'pain relief'),
+    (18, 2, 9, 'relaxation'),
+    (19, 13, 6, 'laser medicine'),
+    (20, 3, 5, 'relaxation');
