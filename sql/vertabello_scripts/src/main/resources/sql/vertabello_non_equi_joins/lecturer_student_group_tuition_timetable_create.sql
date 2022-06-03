@@ -24,7 +24,7 @@ create table if not exists timetable (
     group_id int not null,
     room_id int not null,
     day varchar(50) not null,
-    hour TIMESTAMP not null,
+    hour TIME not null,
     foreign key (group_id) references student_group(id)
 );
 
@@ -48,3 +48,43 @@ values (1, 10, 'English', 'B1', 1),
     (10, 10, 'French', 'B1', 3),
     (11, 15, 'Polish', 'A1', 5),
     (12, 10, 'Polish', 'A2', 5);
+
+insert into tuition (group_id, cost)
+values (1, 700),
+    (2, 950),
+    (3, 1100),
+    (4, 500),
+    (5, 800),
+    (6, 900),
+    (7, 750),
+    (8, 500),
+    (9, 600),
+    (10, 1200),
+    (11, 800),
+    (12, 800);
+
+insert into timetable(group_id, room_id, day, hour)
+values (1, 13, 'monday', 13.00.00),
+    (1, 13, 'thursday', '15:00:00'),
+    (2, 25, 'wednesday', '17:00:00'),
+    (2, 25, 'friday', '12:00:00'),
+    (3, 14, 'monday', '11:00:00'),
+    (3, 14, 'friday', '18:00:00'),
+    (4, 11, 'tuesday', '17:00:00'),
+    (4, 11, 'thursday', '16:00:00'),
+    (5, 14, 'monday', '14:00:00'),
+    (5, 16, 'thursday', '14:00:00'),
+    (6, 22, 'wednesday', '13:00:00'),
+    (6, 11, 'friday', '15:00:00'),
+    (7, 10, 'monday', '16:00:00'),
+    (7, 14, 'friday', '17:00:00'),
+    (8, 3, 'tuesday', '18:00:00'),
+    (8, 3, 'thursday','19:00:00'),
+    (9, 13, 'monday', '17:00:00'),
+    (9, 13, 'thursday', '17:00:00'),
+    (10, 11, 'wednesday', '14:00:00'),
+    (10, 11, 'friday', '14:00:00'),
+    (11, 8, 'monday', '11:00:00'),
+    (11, 8, 'friday', '11:00:00'),
+    (12, 5, 'tuesday', '14:00:00'),
+    (12, 5, 'thursday', '14:00:00');
