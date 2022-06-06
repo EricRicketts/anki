@@ -1,4 +1,4 @@
-use vertabello_non_equi_joins;
+use vertabello_sql_joins_exercises;
 create table if not exists lecturer (
     id int primary key auto_increment not null,
     name varchar(255) not null,
@@ -64,7 +64,7 @@ values (1, 700),
     (12, 800);
 
 insert into timetable(group_id, room_id, day, hour)
-values (1, 13, 'monday', 13.00.00),
+values (1, 13, 'monday', '13:00:00'),
     (1, 13, 'thursday', '15:00:00'),
     (2, 25, 'wednesday', '17:00:00'),
     (2, 25, 'friday', '12:00:00'),
